@@ -1,0 +1,113 @@
+@media (max-width: 1112px){
+/* header */
+.F024{
+   display: none;
+}
+
+/* home */
+/* .home-left{
+    padding-left: 120px;
+} */
+
+.cardd-wrap{
+   
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+}
+@media (max-width: 761px){
+    /* home */
+    .home{
+       margin: auto;
+    }
+    .home-right{
+        display: none;
+    }
+    .home-middle{
+        display: none;
+    }
+    .home-left{
+        width: 100%;
+        /* padding: 40px 0 30px 70px; */
+    }
+
+    /* grid */
+    .grid-container {
+        width: 95%;
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      /* found grid */
+      .grid-container-found {
+        grid-template-columns: 1fr;
+      }
+      .grid-container-startup {
+        grid-template-columns: 1fr;
+        grid-template-rows: unset;
+      }
+
+/* youyube */
+.youtube{
+    width:440px; height:270px;
+  }
+
+/* style */
+.interest{
+    height: 150px;
+}
+
+}
+    
+
+@media (max-width: 634px){
+    /* header */
+    .nav2{
+        display: none;
+    }
+    .nav1 ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    /* YC card */
+    .cardd-wrap{
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        margin: auto;
+    }
+.stylese{
+    display: none;
+}
+}
+
+@media (max-width: 480px){
+    /* grid */
+    .grid-container {
+        width: 97%;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+/* youyube */
+.youtube{
+    width:320px; height:200px;
+  }
+
+  .grid-containerlearn {
+    grid-template-columns: 1fr;
+    grid-template-rows: unset;
+  }
+
+/* footer */
+.up-footer{
+   display: block;
+margin-left: 10px;  
+}
+  .up-footer div{
+    display: block;
+   }
+
+}
